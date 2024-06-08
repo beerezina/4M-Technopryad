@@ -1,0 +1,37 @@
+.star-color-line:hover {
+  fill: blue;
+}
+.star-color-line-1:hover {
+  fill: white;
+}
+@keyframes star-left-line {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100%);
+  }
+}
+
+.star-left-line:hover {
+  animation-play-state: paused;
+}
+@keyframes star-up-long-line {
+  0% {
+    left: -19px;
+  }
+  100% {
+    left: 98%;
+  }
+}
+.star-up-long-line:hover {
+  animation-play-state: paused;
+}
+
+.star-left-line-1:hover {
+  animation-play-state: paused;
+}
+
+.star-up-long-line-1:hover {
+  animation-play-state: paused;
+}
