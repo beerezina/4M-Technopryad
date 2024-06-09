@@ -1,0 +1,44 @@
+@media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+  .name-shelkopryad,
+  .name-technopryad {
+    font-size: 6.5vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4 {
+    font-size: 3.5vw;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .name-shelkopryad,
+  .name-technopryad {
+    font-size: 5.8vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4 {
+    font-size: 5.5vw;
+  }
+  .text-1,
+  .text-3 {
+    margin-bottom: 70px;
+  }
+}
+@media only screen and (min-device-width: 1px) and (max-device-width: 500px) {
+  .name-shelkopryad,
+  .name-technopryad {
+    font-size: 5.8vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4 {
+    font-size: 7.5vw;
+  }
+  .text-1,
+  .text-3 {
+    margin-bottom: 70px;
+  }
+}

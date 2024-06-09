@@ -35,3 +35,20 @@
 .star-up-long-line-1:hover {
   animation-play-state: paused;
 }
+
+@keyframes star-left-right-line {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes star-up-long-line-1 {
+  0% {
+    left: -19px;
+  }
+  100% {
+    left: 98%;
+  }
+}
