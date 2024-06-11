@@ -35,7 +35,18 @@
 .star-up-long-line-1:hover {
   animation-play-state: paused;
 }
-
+.star-blue-right-line:hover {
+  animation-play-state: paused;
+}
+.star-up-long-line-2:hover {
+  animation-play-state: paused;
+}
+.big-pink-star-s:hover {
+  fill: blue;
+}
+.big-pink-star-t:hover {
+  fill: white;
+}
 @keyframes star-left-right-line {
   0% {
     transform: translate(0, 100%);
