@@ -1,0 +1,106 @@
+@media only screen and (min-device-width: 0px) and (max-device-width: 350px) {
+  * {
+    width: 0;
+    height: 0;
+  }
+}
+/* планшет */
+@media only screen and (min-device-width: 550px) and (max-device-width: 900px) {
+  .ms-blue-half {
+    height: 66.667vw;
+  }
+  .ms-white-half {
+    height: 66.667vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4 {
+    font-size: 4.083vw;
+  }
+  .big-pink-in-white-star {
+    top: -33.88vw;
+    left: 37.32vw;
+  }
+  .big-pink-in-white-star-1 {
+    top: -34vw;
+    left: -45vw;
+    opacity: 100%;
+  }
+  .click-1 {
+    top: 4vw;
+    left: 42vw;
+    font-size: 2.302vw;
+  }
+  .text-1,
+  .text-3 {
+    margin-bottom: 6.25vw;
+  }
+  .big-pink-in-white-star-1 > svg {
+    width: 98.568vw;
+    height: 62.891vw;
+  }
+  .big-pink-in-white-star > svg {
+    width: 98.568vw;
+    height: 62.891vw;
+  }
+}
+/* мобилка */
+@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+  .ms-blue-half {
+    height: 108.213vw;
+    padding: 25px;
+  }
+  .ms-white-half {
+    height: 108.213vw;
+    padding: 25px;
+  }
+
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4 {
+    font-size: 7.575vw;
+  }
+  .text-1,
+  .text-3 {
+    margin-bottom: 6.763vw;
+  }
+  .big-pink-in-white-star {
+    top: -62.88vw;
+    left: 23.32vw;
+  }
+  .big-pink-in-white-star > svg {
+    width: 182.85vw;
+    height: 115.942vw;
+  }
+
+  .left-line,
+  .right-line,
+  .right-line-bottom,
+  .left-line-bottom,
+  .right-line-1,
+  .left-line-1,
+  .right-line-bottom-1,
+  .left-line-bottom-1 {
+    height: 19.807vw;
+  }
+
+  .name-shelkopryad,
+  .name-technopryad {
+    margin-top: 12.56vw;
+  }
+  .big-pink-in-white-star-1 > svg {
+    width: 182.85vw;
+    height: 115.942vw;
+  }
+  .big-pink-in-white-star-1 {
+    top: -62.88vw;
+    left: -116.68vw;
+  }
+  .click-1 {
+    left: 38vw;
+    top: 7vw;
+    font-size: 4vw;
+  }
+}
