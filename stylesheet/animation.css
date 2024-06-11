@@ -52,3 +52,12 @@
     left: 98%;
   }
 }
+
+@keyframes click {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
