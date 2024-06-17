@@ -44,6 +44,24 @@
     width: 98.568vw;
     height: 62.891vw;
   }
+  .white-view,
+  .blue-view {
+    height: 66.667vw;
+  }
+  .blue-view {
+    top: 66.667vw;
+  }
+  .open-white-menu,
+  .open-blue-menu {
+    height: 66.667vw;
+  }
+  .open-blue-menu {
+    top: 66.667vw;
+  }
+  .white-menu,
+  .blue-menu {
+    width: 25.781vw;
+  }
 }
 /* мобилка */
 @media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
@@ -102,5 +120,23 @@
     left: 38vw;
     top: 7vw;
     font-size: 4vw;
+  }
+  .white-view,
+  .blue-view {
+    height: 108.213vw;
+  }
+  .open-white-menu,
+  .open-blue-menu {
+    height: 108.213vw;
+  }
+  .open-blue-menu {
+    top: 108.213vw;
+  }
+  .blue-view {
+    top: 108.213vw;
+  }
+  .white-menu,
+  .blue-menu {
+    width: 41.848vw;
   }
 }

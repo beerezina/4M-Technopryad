@@ -7,3 +7,8 @@
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   src: URL(../fonts/Bank-GothicRUS-BY-LYAJKA-Medium.ttf);
 }
+
+@font-face {
+  font-family: "Cute Font";
+  src: url(../fonts/CuteFont-Regular.ttf);
+}
