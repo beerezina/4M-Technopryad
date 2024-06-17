@@ -139,4 +139,8 @@
   .blue-menu {
     width: 41.848vw;
   }
+  .white-view-text,
+  .blue-view-text {
+    font-size: 26.562vw;
+  }
 }
