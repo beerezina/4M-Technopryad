@@ -1,11 +1,11 @@
-@media only screen and (min-device-width: 0px) and (max-device-width: 350px) {
+@media only screen and (min-width: 0px) and (max-width: 350px) {
   * {
     width: 0;
     height: 0;
   }
 }
 /* планшет */
-@media only screen and (min-device-width: 550px) and (max-device-width: 900px) {
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
   .ms-blue-half {
     height: 66.667vw;
   }
@@ -64,7 +64,7 @@
   }
 }
 /* мобилка */
-@media only screen and (min-device-width: 350px) and (max-device-width: 550px) {
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
   .ms-blue-half {
     height: 108.213vw;
     padding: 25px;
@@ -142,5 +142,29 @@
   .white-view-text,
   .blue-view-text {
     font-size: 26.562vw;
+  }
+}
+
+/* 2к экран */
+@media only screen and (min-width: 1920px) and (max-width: 9999px) {
+  .ms-blue-half {
+    height: 28vw;
+  }
+  .ms-white-half {
+    height: 28vw;
+  }
+  .white-view,
+  .blue-view {
+    height: 28vw;
+  }
+  .open-white-menu,
+  .open-blue-menu {
+    height: 28vw;
+  }
+  .open-blue-menu {
+    top: 28vw;
+  }
+  .blue-view {
+    top: 28vw;
   }
 }

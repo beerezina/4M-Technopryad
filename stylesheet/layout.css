@@ -393,3 +393,6 @@
 .star-up-long-line {
   z-index: 10;
 }
+body {
+  background-color: blue;
+}
