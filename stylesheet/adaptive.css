@@ -62,6 +62,34 @@
   .blue-menu {
     width: 25.781vw;
   }
+  .b-text-menu > a {
+    font-size: 5.222vw;
+  }
+  .w-text-menu > a {
+    font-size: 5.222vw;
+  }
+  #down-close-menu > svg {
+    width: 3.2vw;
+    height: 3.2vw;
+  }
+  #up-close-menu > svg {
+    width: 3.2vw;
+    height: 3.2vw;
+  }
+  .triangle-up-2,
+  .triangle-down-2,
+  .triangle-up-2 > img,
+  .triangle-down-2 > img {
+    height: 1.556vw;
+    width: 1.556vw;
+  }
+  .triangle-up-1,
+  .triangle-down-1,
+  .triangle-up-1 > img,
+  .triangle-down-1 > img {
+    height: 1.556vw;
+    width: 1.556vw;
+  }
 }
 /* мобилка */
 @media only screen and (min-width: 350px) and (max-width: 1000px) {
@@ -142,6 +170,34 @@
   .white-view-text,
   .blue-view-text {
     font-size: 26.562vw;
+  }
+  .b-text-menu > a {
+    font-size: 6.222vw;
+  }
+  .w-text-menu > a {
+    font-size: 6.222vw;
+  }
+  #down-close-menu > svg {
+    width: 5.2vw;
+    height: 5.2vw;
+  }
+  #up-close-menu > svg {
+    width: 5.2vw;
+    height: 5.2vw;
+  }
+  .triangle-up-2,
+  .triangle-down-2,
+  .triangle-up-2 > img,
+  .triangle-down-2 > img {
+    height: 2.556vw;
+    width: 2.556vw;
+  }
+  .triangle-up-1,
+  .triangle-down-1,
+  .triangle-up-1 > img,
+  .triangle-down-1 > img {
+    height: 2.556vw;
+    width: 2.556vw;
   }
 }
 

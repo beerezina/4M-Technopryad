@@ -126,6 +126,7 @@
   display: none;
   z-index: 10;
   cursor: pointer;
+  animation: 0.5s ease-in-out 0s 1 alternate op;
 }
 .white-view {
   height: 35.556vw;
@@ -138,13 +139,198 @@
   display: none;
   z-index: 10;
   cursor: pointer;
+  animation: 0.5s ease-in-out 0s 1 alternate op;
 }
-.close-menu {
+@keyframes op {
+  0% {
+    filter: blur(50px) opacity(0);
+    -webkit-filter: blur(50px) opacity(0);
+  }
+  100% {
+    filter: blur(0px) opacity(1);
+    -webkit-blur: (0px) opacity(1);
+  }
+}
+#up-close-menu {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 2rem;
   cursor: pointer;
+}
+#up-close-menu > svg {
+  width: 1.2vw;
+  height: 1.2vw;
+}
+#down-close-menu {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+#down-close-menu > svg {
+  width: 1.2vw;
+  height: 1.2vw;
+}
+
+.w-poster-box,
+.w-place-box,
+.w-shop-box,
+.w-sign-up-box,
+.w-arrow-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+}
+
+.b-generator-box,
+.b-sign-up-box,
+.b-process-box {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  border-bottom: 2px solid white;
+}
+.b-sign-up-box {
+  border-bottom: 0px;
+}
+.b-arrow-box {
+  width: 100%;
+  height: 64%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  border-bottom: 2px solid white;
+}
+
+.b-arrow-box:hover,
+.b-generator-box:hover,
+.b-process-box:hover,
+.b-sign-up-box:hover {
+  background-color: #eb8ef3;
+}
+
+.w-poster-box:hover {
+  background-color: #eb8ef3;
+}
+.w-place-box:hover {
+  background-color: #eb8ef3;
+}
+.w-shop-box:hover {
+  background-color: #eb8ef3;
+}
+.w-sign-up-box:hover {
+  background-color: #eb8ef3;
+}
+.w-arrow-box:hover {
+  background-color: #eb8ef3;
+}
+.w-star:hover {
+  fill: blue;
+}
+.b-star:hover {
+  fill: white;
+}
+
+.w-text-menu {
+  list-style-type: none;
+}
+.w-text-menu > a {
+  text-decoration: none;
+  color: blue;
+  font-family: "Cute Font";
+  font-size: 2.222vw;
+  text-transform: uppercase;
+}
+.b-text-menu > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Cute Font";
+  font-size: 2.222vw;
+  text-transform: uppercase;
+}
+.b-text-menu {
+  list-style-type: none;
+}
+.w-sign-up-box {
+  width: 100%;
+  height: 12%;
+  border-bottom: 2px solid blue;
+}
+.w-arrow-box {
+  height: 51%;
+  width: 100%;
+  border-bottom: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+.triangle-up-1,
+.triangle-down-1,
+.triangle-up-1 > img,
+.triangle-down-1 > img {
+  height: 0.556vw;
+  width: 0.556vw;
+  display: flex;
+}
+.triangle-up-2,
+.triangle-down-2,
+.triangle-up-2 > img,
+.triangle-down-2 > img {
+  height: 0.556vw;
+  width: 0.556vw;
+  display: flex;
+}
+
+.line-2 {
+  height: 65%;
+  width: 2px;
+  background-color: white;
+  animation: 1s linear 0s normal none infinite running line-2;
+}
+@keyframes line-2 {
+  0% {
+    height: 80%;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 80%;
+  }
+}
+
+.line-1 {
+  height: 65%;
+  width: 2px;
+  background-color: #4200ff;
+  animation: 1s linear 0s normal none infinite running line-1;
+}
+@keyframes line-1 {
+  0% {
+    height: 75%;
+  }
+  50% {
+    height: 45%;
+  }
+  100% {
+    height: 75%;
+  }
+}
+
+.w-poster-box,
+.w-place-box,
+.w-shop-box {
+  width: 100%;
+  height: 12.07%;
+  border-bottom: 2px solid blue;
+}
+.w-shop-box {
+  border: 0px;
 }
 .open-white-menu {
   background-color: hsla(0, 0%, 100%, 0.8);
@@ -163,6 +349,7 @@
   border-right: solid 2px;
   border-color: blue;
   z-index: 11;
+  animation: 0.5s ease-in-out 0s 1 alternate op;
 }
 .close-button {
   position: absolute;
@@ -181,12 +368,13 @@
   border-right: solid 2px;
   border-color: white;
   z-index: 11;
+  animation: 0.5s ease-in-out 0s 1 alternate op;
 }
 .open-blue-menu {
   background-color: hsla(256, 100%, 50%, 0.8);
   height: 35.556vw;
   width: 100vw;
-  top: 35.556vw;
+  border: 0;
 }
 .blue-view-text {
   font-family: "Cute Font";
@@ -198,11 +386,13 @@
   color: white;
   font-size: 11.562vw;
 }
+
 .white-view-text {
   font-family: "Cute Font";
   color: #4200ff;
   font-size: 11.562vw;
 }
+
 /* бокс внутри паддингов */
 .box-in-blue-half-1 {
   width: 100%;
@@ -346,6 +536,7 @@
   left: -3.8vw;
 }
 .click-1 {
+  display: none;
   left: 46.4vw;
   top: 2.9vw;
   font-size: 1.4vw;
@@ -354,6 +545,14 @@
   position: absolute;
   animation: linear 0.3s infinite alternate click;
 }
+
+.ms-white-half:hover .click-1 {
+  display: block;
+}
+.ms-blue-half:hover .click-1 {
+  display: block;
+}
+
 .text-shelkopryad,
 .text-technopryad {
   position: relative;
