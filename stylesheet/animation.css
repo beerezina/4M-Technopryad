@@ -1,5 +1,5 @@
 .star-color-line:hover {
-  fill: blue;
+  fill: #4200ff;
 }
 .star-color-line-1:hover {
   fill: white;
@@ -42,7 +42,7 @@
   animation-play-state: paused;
 }
 .big-pink-star-s:hover {
-  fill: blue;
+  fill: #4200ff;
 }
 .big-pink-star-t:hover {
   fill: white;

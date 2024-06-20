@@ -1,5 +1,9 @@
 @import url(reset.css);
 @import url(fonts.css);
 @import url(layout-main-screen.css);
+@import url(layout-w-pattern-screen.css);
+@import url(layout-b-pattern-screen.css);
 @import url(animation.css);
-@import url(adaptive.css);
+@import url(adaptive-main-screen.css);
+@import url(adaptive-w-pattern-screen.css);
+@import url(adaptive-b-pattern-screen.css);

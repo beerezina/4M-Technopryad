@@ -34,7 +34,7 @@
 .left-line {
   width: 2px;
   height: 82px;
-  background-color: blue;
+  background-color: #4200ff;
 }
 /* звезда на верхней левой линии */
 .star-left-line {
@@ -51,7 +51,7 @@
 .up-long-line {
   width: 100%;
   height: 2px;
-  background-color: blue;
+  background-color: #4200ff;
   /* position: relative; */
 }
 /* звезда на верхней длинной линии */
@@ -68,7 +68,7 @@
 .right-line {
   width: 2px;
   height: 82px;
-  background-color: blue;
+  background-color: #4200ff;
   position: relative;
 }
 
@@ -82,18 +82,18 @@
 .left-line-bottom {
   width: 2px;
   height: 82px;
-  background-color: blue;
+  background-color: #4200ff;
 }
 
 .up-long-line-bottom {
   width: 100%;
   height: 2px;
-  background-color: blue;
+  background-color: #4200ff;
 }
 .right-line-bottom {
   width: 2px;
   height: 82px;
-  background-color: blue;
+  background-color: #4200ff;
 }
 /* СЕКЦИЯ СО ВСЕМ СОДЕРЖИМЫМ В БЕЛОМ  */
 .all-information-box-white {
@@ -106,7 +106,7 @@
 
 /* СИНЯЯ ПОЛОВИНА */
 .ms-blue-half {
-  background-color: blue;
+  background-color: #4200ff;
   height: 35.556vw;
   width: 100vw;
   padding: 25px 40px;
@@ -231,7 +231,7 @@
   background-color: #eb8ef3;
 }
 .w-star:hover {
-  fill: blue;
+  fill: #4200ff;
 }
 .b-star:hover {
   fill: white;
@@ -242,7 +242,7 @@
 }
 .w-text-menu > a {
   text-decoration: none;
-  color: blue;
+  color: #4200ff;
   font-family: "Cute Font";
   font-size: 2.222vw;
   text-transform: uppercase;
@@ -260,12 +260,12 @@
 .w-sign-up-box {
   width: 100%;
   height: 12%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #4200ff;
 }
 .w-arrow-box {
   height: 51%;
   width: 100%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #4200ff;
   display: flex;
   flex-direction: column;
 }
@@ -327,7 +327,7 @@
 .w-shop-box {
   width: 100%;
   height: 12.07%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #4200ff;
 }
 .w-shop-box {
   border: 0px;
@@ -347,7 +347,7 @@
   height: 100%;
   background-color: white;
   border-right: solid 2px;
-  border-color: blue;
+  border-color: #4200ff;
   z-index: 11;
   animation: 0.5s ease-in-out 0s 1 alternate op;
 }
@@ -364,7 +364,7 @@
   display: none;
   width: 13.75vw;
   height: 100%;
-  background-color: blue;
+  background-color: #4200ff;
   border-right: solid 2px;
   border-color: white;
   z-index: 11;
@@ -486,7 +486,7 @@
 .name-technopryad {
   margin-top: 1.389vw;
   font-family: "Yagiza";
-  color: blue;
+  color: #4200ff;
   text-align: center;
   font-size: 6.5vw;
   z-index: 1;
@@ -498,7 +498,7 @@
 .text-2 {
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   text-align: center;
-  color: blue;
+  color: #4200ff;
   font-size: 2.15vw;
 }
 
@@ -591,7 +591,4 @@
 .star-blue-right-line,
 .star-up-long-line {
   z-index: 10;
-}
-body {
-  background-color: blue;
 }
