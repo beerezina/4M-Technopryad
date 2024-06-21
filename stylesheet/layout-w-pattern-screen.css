@@ -2,6 +2,7 @@
   position: relative;
   padding: 25px;
   background-color: white;
+  animation: 0.5s ease-in-out 0s 1 alternate op;
 }
 .w-top-menu-bar {
   display: flex;
@@ -30,13 +31,72 @@
 .w-about-us-text {
   font-size: 2.6vw;
 }
+.w-menu-text {
+  cursor: pointer;
+  position: relative;
+}
+.w-menu-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 0;
+  height: 2px;
+  background-color: #eb8ef3;
+  transition: width 0.3s ease;
+}
+
+.w-menu-text:hover::after {
+  width: 100%;
+}
+.w-contact-text {
+  position: relative;
+  cursor: pointer;
+}
+.w-contact-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 0;
+  height: 2px;
+  background-color: #eb8ef3;
+  transition: width 0.3s ease;
+}
+
+.w-contact-text:hover::after {
+  width: 100%;
+}
+.w-about-us-text {
+  cursor: pointer;
+  position: relative;
+}
+.w-about-us-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 0;
+  height: 2px;
+  background-color: #eb8ef3;
+  transition: width 0.3s ease;
+}
+
+.w-about-us-text:hover::after {
+  width: 100%;
+}
 
 .w-go-to-main-page {
   height: 2.4vw;
   width: 4.4vw;
   background-color: #4200ff;
-  border: 0px;
+  border: 2px solid #4200ff;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.w-go-to-main-page:hover {
+  background-color: #eb8ef3;
 }
 .w-all-content-box {
   width: 100%;

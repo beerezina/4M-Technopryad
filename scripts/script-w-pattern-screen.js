@@ -22,3 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const goToMainPageButton = document.querySelector(".w-go-to-main-page");
+
+  goToMainPageButton.addEventListener("click", function () {
+    window.location.href = "index.html";
+  });
+});
