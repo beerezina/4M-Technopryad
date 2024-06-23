@@ -1,0 +1,10 @@
+/* планшет */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+}
+/* мобилка */
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+}
+
+/* 2к экран */
+@media only screen and (min-width: 1920px) and (max-width: 9999px) {
+}

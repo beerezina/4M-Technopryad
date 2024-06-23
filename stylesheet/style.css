@@ -6,6 +6,7 @@
 @import url(layout-w-sign-up.css);
 @import url(layout-b-sign-up.css);
 @import url(layout-shop.css);
+@import url(layout-generator.css);
 @import url(animation.css);
 @import url(adaptive-main-screen.css);
 @import url(adaptive-w-pattern-screen.css);
@@ -13,3 +14,4 @@
 @import url(adaptive-w-sign-up.css);
 @import url(adaptive-b-sign-up.css);
 @import url(adaptive-shop.css);
+@import url(adaptive-generator.css);
