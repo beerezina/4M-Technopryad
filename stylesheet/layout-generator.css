@@ -1,4 +1,72 @@
 #all-content-box-generator {
   background-image: url(../images/generator-image-all.png);
   background-size: cover;
+  background-position-x: -1vw;
+}
+.white-box-view {
+  background-color: hsla(256, 100%, 50%, 0.8);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "Cute Font";
+  font-size: 19vw;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  opacity: 0%;
+  cursor: pointer;
+}
+
+@keyframes lightss {
+  0% {
+    opacity: 0%;
+    transition: width 0.3s ease;
+  }
+  50% {
+    opacity: 100%;
+    transition: width 0.3s ease;
+  }
+  100% {
+    opacity: 0%;
+    transition: width 0.3s ease;
+  }
+}
+.white-box-view:hover {
+  opacity: 100%;
+  animation: 0.5s ease-in-out 0s 1 alternate op;
+}
+
+.b-text-menu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.b-text-menu:hover::after {
+  width: 100%;
+}
+
+.b-text-menu {
+  position: relative;
+}
+.w-text-menu {
+  position: relative;
+}
+.w-text-menu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.3s ease;
+}
+.w-text-menu:hover::after {
+  width: 100%;
 }

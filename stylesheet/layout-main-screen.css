@@ -593,3 +593,9 @@
 .star-up-long-line {
   z-index: 10;
 }
+.b-first-star,
+.b-second-star,
+.b-third-star,
+.b-fourth-star {
+  z-index: 3;
+}

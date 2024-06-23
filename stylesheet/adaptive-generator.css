@@ -1,10 +1,26 @@
 /* планшет */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .white-box-view {
+    animation: 3s ease-in-out 0s infinite lightss;
+  }
 }
 /* мобилка */
 @media only screen and (min-width: 350px) and (max-width: 1000px) {
+  #all-content-box-generator {
+    background-size: 174vw;
+    background-position-x: -42vw;
+  }
+  .white-box-view {
+    animation: 3s ease-in-out 0s infinite lightss;
+  }
 }
 
 /* 2к экран */
 @media only screen and (min-width: 1920px) and (max-width: 9999px) {
+  #all-content-box-generator {
+    height: 48vw;
+    background-size: 96vw;
+    background-position-y: -4vw;
+    background-position-x: 0vw;
+  }
 }
