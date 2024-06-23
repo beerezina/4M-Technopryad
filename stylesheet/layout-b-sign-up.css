@@ -347,6 +347,7 @@ label {
   margin-right: 1.04vw;
   background-color: white;
   margin-right: 1.88vw;
+  border: 2px solid white;
 }
 #b-submit-button {
   background-color: #eb8ef3;
@@ -432,7 +433,6 @@ input[type="time"]:focus {
   outline: none; /* Убираем стандартное обрамление фокуса */
 }
 button {
-  border: 2px solid white;
   border-radius: 4px;
 }
 .b-box-flex {

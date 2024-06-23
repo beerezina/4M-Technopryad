@@ -1,0 +1,156 @@
+/* планшет */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .fl-col-1,
+  .fl-col-2,
+  .fl-col-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .products {
+    flex-direction: column;
+    gap: 80px;
+    padding: 6vw 5vw;
+  }
+  .product > img {
+    width: 41vw;
+  }
+  .wishlist-button,
+  .cart-button {
+    padding: 22px 31px;
+  }
+  .wishlist-button,
+  .cart-button {
+    font-size: 2vw;
+  }
+  .name {
+    padding: 3vw 0vw;
+    font-size: 3vw;
+  }
+  .header-shop-text {
+    font-size: 7vw;
+  }
+  .header {
+    padding: 6vw 5vw 0 5vw;
+  }
+  .icon {
+    height: 6.4vw;
+    width: 14.4vw;
+  }
+  .icon span {
+    font-size: 4vw;
+  }
+  span > svg {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  .wishlist-button {
+    margin-right: 5px;
+  }
+  #all-content-shop {
+    height: 173vw;
+  }
+}
+/* мобилка */
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+  .products {
+    flex-direction: column;
+    padding: 1vw 7.5vw;
+  }
+
+  .product > img {
+    width: 85vw;
+  }
+  .product {
+    padding: 6vw 0;
+  }
+  .name {
+    padding: 4vw;
+  }
+  .header-shop-text {
+    font-size: 8vw;
+  }
+  .name {
+    font-family: "Bank Gothic(RUS BY LYAJKA)";
+    padding: 1vw;
+    color: blue;
+    font-size: 6vw;
+  }
+  .name {
+    padding: 4vw;
+  }
+  .icon {
+    height: 7vw;
+    width: 14.4vw;
+  }
+  span > svg {
+    width: 4.7vw;
+  }
+  .header {
+    padding: 6vw 7.5vw 0 7.5vw;
+  }
+  .name {
+    font-size: 5vw;
+  }
+
+  .product {
+    padding: 6vw 0 0 0;
+  }
+
+  .w-all-content-box {
+    height: 540vw;
+  }
+  .icon {
+    margin-left: 2vw;
+  }
+  .icon span {
+    font-size: 5vw;
+  }
+  .wishlist-button,
+  .cart-button {
+    padding: 3vw 6vw;
+    font-size: 4vw;
+  }
+  .wishlist-button {
+    margin-right: 3.6vw;
+  }
+  .products {
+    gap: 0;
+  }
+}
+
+/* 2к экран */
+@media only screen and (min-width: 1920px) and (max-width: 9999px) {
+  .product > img {
+    border-radius: 4px;
+    width: 26vw;
+  }
+  .wishlist-button,
+  .cart-button {
+    padding: 23px 34px;
+  }
+  .wishlist-button,
+  .cart-button {
+    font-size: 1.3vw;
+  }
+  .name {
+    font-size: 1.8vw;
+  }
+  .icon {
+    height: 3.7vw;
+    width: 6.4vw;
+  }
+  span > svg {
+    width: 2.7vw;
+    height: 2vw;
+  }
+  .icon span {
+    font-size: 38px;
+  }
+  #all-content-shop {
+    height: 62vw;
+  }
+  .wishlist-button {
+    margin-right: 1vw;
+  }
+}

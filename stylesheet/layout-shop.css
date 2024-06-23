@@ -38,11 +38,13 @@ body {
 }
 
 button {
-  padding: 10px 20px;
-  margin: 5px;
   cursor: pointer;
   background-color: white;
   transition: background-color 0.3s ease;
+}
+.wishlist-button,
+.cart-button {
+  padding: 10px 20px;
 }
 
 button.wishlist-button {
@@ -172,4 +174,7 @@ span > svg {
 }
 .product > img {
   border-radius: 4px;
+}
+.product > img {
+  width: 24vw;
 }
