@@ -43,14 +43,18 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".wishlist-button").forEach((button) => {
     button.addEventListener("click", () => {
       if (!button.classList.contains("active")) {
+        wishlistItems += 1;
+        wishlistCount.textContent = wishlistItems;
+        flashIcon(wishlistIcon, "flash"); // мигание иконки
+        button.textContent = "Убрать";
         button.classList.add("active");
-        wishlistItems++;
-        wishlistCount.textContent = wishlistItems;
-        flashEffect(wishlistIcon, "flash");
       } else {
-        button.classList.remove("active");
-        wishlistItems--;
+        wishlistItems -= 1;
         wishlistCount.textContent = wishlistItems;
+        if (wishlistItems === 0) wishlistCount.textContent = 0; // на случай если было последнее удаление
+        flashIcon(wishlistIcon, "flash"); // мигание иконки
+        button.textContent = "Отложить";
+        button.classList.remove("active");
       }
     });
   });
@@ -59,22 +63,26 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".cart-button").forEach((button) => {
     button.addEventListener("click", () => {
       if (!button.classList.contains("active")) {
+        cartItems += 1;
+        cartCount.textContent = cartItems;
+        flashIcon(cartIcon, "flash"); // мигание иконки
+        button.textContent = "Удалить";
         button.classList.add("active");
-        cartItems++;
-        cartCount.textContent = cartItems;
-        flashEffect(cartIcon, "flash");
       } else {
-        button.classList.remove("active");
-        cartItems--;
+        cartItems -= 1;
         cartCount.textContent = cartItems;
+        if (cartItems === 0) cartCount.textContent = 0; // на случай если было последнее удаление
+        flashIcon(cartIcon, "flash"); // мигание иконки
+        button.textContent = "В корзину";
+        button.classList.remove("active");
       }
     });
   });
 
-  function flashEffect(element, className) {
-    element.classList.add(className);
+  function flashIcon(icon, flashClass) {
+    icon.classList.add(flashClass);
     setTimeout(() => {
-      element.classList.remove(className);
-    }, 500);
+      icon.classList.remove(flashClass);
+    }, 300);
   }
 });
