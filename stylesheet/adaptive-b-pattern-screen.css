@@ -69,6 +69,10 @@
   .b-fourth-star {
     bottom: -13px;
   }
+  .b-go-to-main-page > svg {
+    width: 2.9vw;
+    height: 2.9vw;
+  }
 }
 /* мобилка */
 @media only screen and (min-width: 350px) and (max-width: 1000px) {
@@ -177,6 +181,10 @@
   .b-fourth-star {
     bottom: -13px;
   }
+  .b-go-to-main-page > svg {
+    width: 6vw;
+    height: 6vw;
+  }
 }
 
 /* 2к экран */
@@ -253,5 +261,9 @@
     100% {
       width: 100%;
     }
+  }
+  .b-go-to-main-page > svg {
+    width: 1.5vw;
+    height: 1.5vw;
   }
 }

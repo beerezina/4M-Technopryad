@@ -265,7 +265,182 @@
   animation-play-state: paused;
 }
 
-.w-go-to-main-page > svg {
-  width: 2vw;
-  height: 2vw;
+/* страница запись весь контент в центре */
+
+.w-notice {
+  display: none;
+  background-color: #eb8ef3;
+  color: #721c24;
+  padding: 10px;
+  /* border: 1px solid #f5c6cb; */
+  /* margin-top: 10px; */
+  position: absolute;
+  left: 50%;
+  height: 66%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  top: 25.5%;
+}
+
+.w-container {
+  margin-bottom: 0.69vw;
+}
+.w-status-icon {
+  margin-left: 0.69vw;
+  font-weight: bold;
+}
+.w-valid {
+  color: #eb8ef3;
+}
+.w-invalid {
+  color: blue;
+}
+#w-close-notice {
+  background: white;
+  border: 2px blue solid;
+  font-weight: bold;
+  cursor: pointer;
+  width: 3.89vw;
+  height: 3.89vw;
+  margin-left: 0.69vw;
+  transition: background-color 0.3s ease;
+}
+.w-sign-up-header {
+  font-family: "Bank Gothic(RUS BY LYAJKA)";
+  font-size: 4vw;
+  color: blue;
+}
+label {
+  color: blue;
+}
+#w-notice-text {
+  font-family: "Bank Gothic(RUS BY LYAJKA)";
+  font-size: 3vw;
+  color: blue;
+}
+.w-sign-up-header-box {
+  display: flex;
+  align-items: center;
+  height: 26%;
+  margin-left: 14vw;
+}
+#w-reset-button,
+#w-submit-button {
+  width: 3.89vw;
+  height: 3.89vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+#w-reset-button {
+  margin-right: 1.04vw;
+  background-color: white;
+  margin-right: 1.88vw;
+}
+#w-submit-button {
+  background-color: #eb8ef3;
+}
+.w-second-column-sign-up {
+  margin-left: 14vw;
+}
+.w-sign-up-buttons {
+  display: flex;
+  margin-left: 35vw;
+}
+#w-sigh-up-content {
+  background-image: url(../images/sctelkifon1440.svg);
+  background-size: cover;
+}
+.w-column-sign-up {
+  display: flex;
+  height: 65%;
+  align-items: center;
+  margin-left: 14vw;
+}
+.w-first-column-sign-up,
+.w-second-column-sign-up {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+label {
+  font-family: "Bank Gothic(RUS BY LYAJKA)";
+  font-size: 2vw;
+}
+#w-name-input,
+#w-email-input {
+  height: 3.82vw;
+  width: 38.47vw;
+  border: 2px blue solid;
+  border-radius: 4px;
+  font-family: "Bank Gothic(RUS BY LYAJKA)";
+  font-size: 1.6vw;
+  color: #eb8ef3;
+  margin-top: 1.74vw;
+}
+#w-date-input,
+#w-time-input {
+  height: 3.82vw;
+  width: 9.72vw;
+  border: 2px blue solid;
+  border-radius: 4px;
+  display: flex;
+  font-family: "Bank Gothic(RUS BY LYAJKA)";
+  font-size: 1.2vw;
+  color: #eb8ef3;
+  justify-content: space-around;
+  margin-top: 1.74vw;
+  text-align: center;
+}
+#w-time-input {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Скрытие иконок календаря и времени */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+input[type="date"],
+input[type="time"],
+input[type="date"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button,
+input[type="time"]::-webkit-clear-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Отключение стрелок и других элементов управления */
+}
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus {
+  border-color: #eb8ef3; /* Цвет бордера при фокусе */
+  outline: none; /* Убираем стандартное обрамление фокуса */
+}
+button {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+.w-box-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+#w-submit-button:hover {
+  background-color: #4200ff;
+}
+#w-reset-button:hover {
+  background-color: #eb8ef3;
+}
+#w-close-notice:hover {
+  background-color: #eb8ef3;
 }

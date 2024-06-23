@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <style>
+      body {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="w-pattern-screen">
+      <div class="w-top-menu-bar">
+        <div class="w-menu-text">MENU</div>
+        <div class="w-p-up-arrow-box">
+          <div class="w-triangle-left-3">
+            <img src="./images/triangle-left.svg" alt="" />
+          </div>
+          <div class="w-line-3"></div>
+          <div class="w-triangle-right-3">
+            <img src="./images/triangle-right.svg" alt="" />
+          </div>
+        </div>
+        <div class="w-shelkopryad-text">SHELKOPRYAD</div>
+        <button class="w-go-to-main-page">
+          <svg
+            width="30"
+            height="29"
+            viewBox="0 0 30 29"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.898438 15.8635L14.6929 2L28.4873 15.8635M4.65053 15.8635V28H11.6818V20.284H17.6567V28H24.6879V15.8635M19.1386 4.10725H23.6317V8.62279"
+              stroke="white"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="w-all-content-box">
+        <!-- две розовые звезды сверху -->
+        <div class="w-two-up-pink-star">
+          <div class="w-first-star">
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="w-star-color-line-3"
+                d="M21 42C21 26.0348 35 21.3478 42 21C35 20.6522 21 15.9652 21 -9.17939e-07C21 15.9652 7 20.7826 -9.23641e-07 21.1304C7 21.4783 21 26.0348 21 42Z"
+                fill="#EB8EF3"
+              />
+            </svg>
+          </div>
+          <div class="w-second-star">
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="w-star-color-line-3"
+                d="M21 42C21 26.0348 35 21.3478 42 21C35 20.6522 21 15.9652 21 -9.17939e-07C21 15.9652 7 20.7826 -9.23641e-07 21.1304C7 21.4783 21 26.0348 21 42Z"
+                fill="#EB8EF3"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- контент магазина -->
+        <div class="header">
+          <div class="header-shop-text">МАГАЗИН</div>
+          <div class="two-icons">
+            <div class="icon" id="wishlist-icon">
+              <span
+                ><svg
+                  class="wish-color"
+                  width="29"
+                  height="29"
+                  viewBox="0 0 29 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="wish-color"
+                    d="M14.3634 9.10447C19.534 -6.40831 41.4093 1.54734 14.3634 27.0025C-12.6825 1.54734 9.19287 -6.40831 14.3634 9.10447Z"
+                    stroke="#eb8ef3"
+                    stroke-width="1.59094"
+                  />
+                </svg> </span
+              ><span id="wishlist-count">0</span>
+            </div>
+            <div class="icon" id="cart-icon">
+              <span
+                ><svg
+                  width="28"
+                  height="29"
+                  viewBox="0 0 28 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="wish-color"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.4092 1.0679C11.2936 1.15889 9.64055 3.071 7.73572 5.31703L4.27231 9.40066L3.02646 9.40152C1.9008 9.40229 1.73929 9.42169 1.35198 9.60307C0.861541 9.83278 0.443113 10.2305 0.220055 10.679C-0.00840432 11.1385 -0.0488665 12.9639 0.157475 13.5048C0.347015 14.0018 0.912205 14.5693 1.40556 14.758L1.78935 14.9048L2.0665 16.3375C3.2917 22.6728 4.00665 26.1567 4.14998 26.4909C4.35135 26.9607 4.97449 27.593 5.50968 27.8708L5.89545 28.0711H13.7822H21.669L22.0715 27.8725C22.6083 27.6078 23.1521 27.0522 23.3895 26.526C23.5314 26.2115 23.8266 24.6393 24.4937 20.6458C24.9946 17.6478 25.4236 15.1312 25.4472 15.0533C25.4707 14.9754 25.699 14.8092 25.9544 14.6841C26.476 14.4285 26.8042 14.0838 27.0471 13.5364C27.1873 13.2203 27.2076 13.0046 27.1836 12.0771C27.1521 10.8597 27.0638 10.5822 26.541 10.0588C25.9945 9.5114 25.7663 9.44667 24.2751 9.41637L22.9377 9.38916L19.6887 5.55481C15.69 0.835696 15.7525 0.902394 15.3381 0.902394C15.1627 0.902394 14.9249 0.964285 14.8095 1.04C14.5326 1.22164 14.3988 1.702 14.5363 2.02056C14.5931 2.1519 15.9125 3.75472 17.4684 5.58236C19.0244 7.41009 20.387 9.01686 20.4964 9.15309L20.6956 9.40066H13.611H6.52647L7.047 8.77831C7.88891 7.77165 8.69439 6.82019 10.7175 4.44274C11.7665 3.20997 12.6613 2.10546 12.7058 1.98837C12.8187 1.69093 12.6693 1.20876 12.4121 1.04C12.1281 0.853722 11.6648 0.866599 11.4092 1.0679ZM1.87962 11.2745C1.77101 11.3947 1.73809 11.6008 1.73903 12.1544C1.74049 12.9309 1.76612 13.0133 2.05356 13.1648C2.32214 13.3063 24.8994 13.3063 25.168 13.1648C25.4559 13.013 25.481 12.9311 25.4825 12.1394C25.4835 11.5326 25.4559 11.3764 25.327 11.2595C25.1828 11.1288 24.2457 11.1175 13.5959 11.1175C2.4917 11.1175 2.01575 11.1238 1.87962 11.2745ZM3.53799 14.9522C3.53799 15.0242 5.37981 24.4145 5.55709 25.2465C5.70445 25.938 5.97997 26.2838 6.46449 26.3857C6.623 26.419 9.99657 26.4437 13.9612 26.4407C20.6531 26.4356 21.186 26.4245 21.3967 26.2862C21.7476 26.0561 21.8851 25.78 22.012 25.0513C22.4108 22.7605 23.6836 15.1213 23.6836 15.0185C23.6836 14.9111 22.3359 14.8945 13.6108 14.8945C8.07074 14.8945 3.53799 14.9204 3.53799 14.9522ZM7.74678 17.1456C7.63345 17.2058 7.46174 17.3617 7.36504 17.492L7.18939 17.729L7.51738 19.8956C8.09183 23.6897 8.11652 23.8102 8.36992 24.064C8.81132 24.5059 9.61955 24.2699 9.74942 23.6609C9.77583 23.5371 9.59134 22.1103 9.33948 20.4904C8.92285 17.8111 8.86276 17.5264 8.67433 17.3378C8.4193 17.0825 8.02085 17 7.74678 17.1456ZM13.2057 17.1743C13.0772 17.2441 12.9326 17.3753 12.8842 17.4657C12.8289 17.5692 12.7964 18.7696 12.7964 20.707C12.7964 24.1113 12.7891 24.0646 13.3465 24.2488C13.6953 24.364 14.1821 24.2021 14.3326 23.9207C14.4568 23.6881 14.4608 17.6969 14.3369 17.465C14.235 17.2744 13.8193 17.0389 13.5936 17.0439C13.5088 17.0458 13.3342 17.1046 13.2057 17.1743ZM18.84 17.1185C18.3926 17.3102 18.3572 17.4338 17.8852 20.4552C17.6365 22.0473 17.4313 23.4361 17.4293 23.5416C17.4272 23.6471 17.5374 23.8587 17.674 24.0118C17.8796 24.2422 17.9845 24.2902 18.2828 24.2902C18.575 24.2902 18.6868 24.2415 18.8728 24.033C19.0859 23.7941 19.1313 23.589 19.5094 21.1593C20.0842 17.4649 20.0664 17.7205 19.772 17.3967C19.512 17.1107 19.1265 16.9956 18.84 17.1185Z"
+                    fill="#4200FF"
+                  />
+                </svg> </span
+              ><span id="cart-count">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="products">
+          <div class="fl-col-1">
+            <div class="product" data-id="1">
+              <img src="./images/product-1.png" alt="Товар 1" />
+              <div class="name">ПЫЛЬЦА И БЛЕСТКИ</div>
+              <button class="wishlist-button">ОТЛОЖИТЬ</button>
+              <button class="cart-button">В КОРЗИНУ</button>
+            </div>
+            <div class="product" data-id="2">
+              <img src="./images/product-2.png" alt="Товар 2" />
+              <div class="name">РАДУЖНАЯ ТКАНЬ</div>
+              <button class="wishlist-button">ОТЛОЖИТЬ</button>
+              <button class="cart-button">В КОРЗИНУ</button>
+            </div>
+          </div>
+          <div class="fl-col-2">
+            <div class="product" data-id="3">
+              <img src="./images/product-3.png" alt="Товар 3" />
+              <div class="name">ЦВЕТНЫЕ КАРАНДАШИ</div>
+              <button class="wishlist-button">ОТЛОЖИТЬ</button>
+              <button class="cart-button">В КОРЗИНУ</button>
+            </div>
+            <div class="product" data-id="4">
+              <img src="./images/product-4.png" alt="Товар 4" />
+              <div class="name">КРАСКИ ДЛЯ КРЫЛЬЕВ</div>
+              <button class="wishlist-button">ОТЛОЖИТЬ</button>
+              <button class="cart-button">В КОРЗИНУ</button>
+            </div>
+          </div>
+          <div class="fl-col-3">
+            <div class="product" data-id="5">
+              <img src="./images/product-5.png" alt="Товар 5" />
+              <div class="name">РАДУЖНАЯ БУМАГА</div>
+              <button class="wishlist-button">ОТЛОЖИТЬ</button>
+              <button class="cart-button">В КОРЗИНУ</button>
+            </div>
+            <div class="product" data-id="6">
+              <img src="./images/product-6.png" alt="Товар 6" />
+              <div class="name">ФИРМЕННЫЕ ПАКЕТЫ</div>
+              <button class="wishlist-button">ОТЛОЖИТЬ</button>
+              <button class="cart-button">В КОРЗИНУ</button>
+            </div>
+          </div>
+        </div>
+        <!-- две розовые звезды снизу -->
+        <div class="w-two-down-pink-star">
+          <div class="w-third-star">
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="w-star-color-line-3"
+                d="M21 42C21 26.0348 35 21.3478 42 21C35 20.6522 21 15.9652 21 -9.17939e-07C21 15.9652 7 20.7826 -9.23641e-07 21.1304C7 21.4783 21 26.0348 21 42Z"
+                fill="#EB8EF3"
+              />
+            </svg>
+          </div>
+          <div class="w-fourth-star">
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="w-star-color-line-3"
+                d="M21 42C21 26.0348 35 21.3478 42 21C35 20.6522 21 15.9652 21 -9.17939e-07C21 15.9652 7 20.7826 -9.23641e-07 21.1304C7 21.4783 21 26.0348 21 42Z"
+                fill="#EB8EF3"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-bottom-menu-bar">
+        <div class="w-contact-text">CONTACT</div>
+        <div class="w-p-down-arrow-left-box">
+          <div class="w-triangle-left-4">
+            <img src="./images/triangle-left.svg" alt="" />
+          </div>
+          <div class="w-line-4"></div>
+          <div class="w-triangle-right-4">
+            <img src="./images/triangle-right.svg" alt="" />
+          </div>
+        </div>
+        <div class="w-made-by-text">MADE BY POLINA BEREZINA</div>
+        <div class="w-p-down-arrow-right-box">
+          <div class="w-triangle-left-4">
+            <img src="./images/triangle-left.svg" alt="" />
+          </div>
+          <div class="w-line-4"></div>
+          <div class="w-triangle-right-4">
+            <img src="./images/triangle-right.svg" alt="" />
+          </div>
+        </div>
+        <div class="w-about-us-text">ABOUT US</div>
+      </div>
+      <!-- белое меню -->
+      <div class="white-menu">
+        <!-- Контент меню здесь -->
+        <div class="w-sign-up-box">
+          <span class="close-menu" id="up-close-menu">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="w-star"
+                d="M18.1818 18.1818C11.2935 11.2935 15.3117 3.23086 18.1818 0.0605924C15.0115 2.93072 6.94892 6.94889 0.0606234 0.0605924C6.94892 6.94889 2.98703 15.0678 0.1169 18.2381C3.28717 15.3679 11.2935 11.2935 18.1818 18.1818Z"
+                fill="hsla(295, 81%, 75%, 0.1);"
+                stroke="#4200FF"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <li class="w-text-menu"><a href="w-sign-up.html">SIGn UP</a></li>
+        </div>
+        <div class="w-arrow-box">
+          <div class="triangle-up-1">
+            <img src="./images/triangle-up.svg" alt="" />
+          </div>
+          <div class="line-1"></div>
+          <div class="triangle-down-1">
+            <img src="./images/triangle-down.svg" alt="" />
+          </div>
+        </div>
+        <div class="w-poster-box">
+          <li class="w-text-menu"><a href="w_poster.html">POSTER</a></li>
+        </div>
+        <div class="w-place-box">
+          <li class="w-text-menu"><a href="w_place.html">PLACE</a></li>
+        </div>
+        <div class="w-shop-box">
+          <span class="close-menu" id="down-close-menu">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="w-star"
+                d="M18.1818 18.1818C11.2935 11.2935 15.3117 3.23086 18.1818 0.0605924C15.0115 2.93072 6.94892 6.94889 0.0606234 0.0605924C6.94892 6.94889 2.98703 15.0678 0.1169 18.2381C3.28717 15.3679 11.2935 11.2935 18.1818 18.1818Z"
+                fill="hsla(295, 81%, 75%, 0.1);"
+                stroke="#4200FF"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <li class="w-text-menu"><a href="shop.html">SHOP</a></li>
+        </div>
+      </div>
+    </section>
+    <script src="./scripts/script-shop.js"></script>
+  </body>
+</html>

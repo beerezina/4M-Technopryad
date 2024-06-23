@@ -1,0 +1,115 @@
+/* планшет */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  #w-sigh-up-content {
+    background-image: url(../images/sctelkifonipad.svg);
+  }
+  .w-notice {
+    height: 70%;
+    top: 20.5%;
+  }
+  .w-sign-up-header-box {
+    height: 23%;
+  }
+  label {
+    font-size: 4vw;
+  }
+  #w-name-input,
+  #w-email-input {
+    height: 5.82vw;
+    width: 41.47vw;
+    font-size: 2.2vw;
+  }
+  #w-date-input,
+  #w-time-input {
+    height: 5.82vw;
+    width: 16.72vw;
+    font-size: 2.2vw;
+  }
+  .w-status-icon {
+    font-size: 3vw;
+  }
+  .w-second-column-sign-up {
+    margin-left: 9vw;
+  }
+  #w-reset-button,
+  #w-submit-button {
+    width: 5.89vw;
+    height: 5.89vw;
+  }
+}
+/* мобилка */
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+  #w-sigh-up-content {
+    background-image: url(../images/sctelkifonmobile.svg);
+  }
+  .w-notice {
+    height: 73%;
+    top: 19%;
+    flex-direction: column;
+  }
+  .w-sign-up-header {
+    font-size: 8vw;
+  }
+  .w-sign-up-header-box {
+    height: 18%;
+    margin-left: 6vw;
+  }
+  #w-reset-button,
+  #w-submit-button {
+    width: 8.89vw;
+    height: 8.89vw;
+  }
+  .w-sign-up-buttons {
+    margin-left: 31vw;
+  }
+  .w-column-sign-up {
+    flex-direction: column;
+  }
+  label {
+    font-size: 6vw;
+  }
+  .w-second-column-sign-up {
+    margin-left: 0vw;
+    justify-content: space-around;
+  }
+  .w-column-sign-up {
+    display: flex;
+    height: 65%;
+    align-items: flex-start;
+  }
+  .w-column-sign-up {
+    margin-left: 6vw;
+    margin-top: 6vw;
+  }
+  #w-name-input,
+  #w-email-input,
+  #w-date-input,
+  #w-time-input {
+    height: 6.82vw;
+    width: 76.47vw;
+    text-align: center;
+    font-size: 5.2vw;
+  }
+  #w-close-notice > svg {
+    width: 5vw;
+  }
+  #w-notice-text {
+    font-size: 10vw;
+  }
+  #w-close-notice {
+    width: 18.4vw;
+    height: 8vw;
+    margin-top: 10vw;
+  }
+}
+
+/* 2к экран */
+@media only screen and (min-width: 1920px) and (max-width: 9999px) {
+  #w-sigh-up-content {
+    background-image: url(../images/sctelkifon2k.svg);
+  }
+  .w-notice {
+    height: 58.5%;
+    top: 30.5%;
+  }
+}
