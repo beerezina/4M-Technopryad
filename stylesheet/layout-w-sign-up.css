@@ -315,7 +315,7 @@
   font-size: 4vw;
   color: blue;
 }
-label {
+.w-container > label {
   color: blue;
 }
 #w-notice-text {
