@@ -68,3 +68,35 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// белое меню
+
+document.querySelector(".w-sign-up-box").addEventListener("click", () => {
+  window.location.href = "w-sign-up.html";
+});
+
+document.querySelector(".w-poster-box").addEventListener("click", () => {
+  window.location.href = "poster.html";
+});
+
+document.querySelector(".w-place-box").addEventListener("click", () => {
+  window.location.href = "place.html";
+});
+
+document.querySelector(".w-shop-box").addEventListener("click", () => {
+  window.location.href = "shop.html";
+});
+
+// синее меню
+
+document.querySelector(".b-generator-box").addEventListener("click", () => {
+  window.location.href = "generator.html";
+});
+
+document.querySelector(".b-process-box").addEventListener("click", () => {
+  window.location.href = "process.html";
+});
+
+document.querySelector(".b-sign-up-box").addEventListener("click", () => {
+  window.location.href = "b-sign-up.html";
+});

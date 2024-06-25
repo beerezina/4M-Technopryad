@@ -93,3 +93,21 @@ document.getElementById("w-close-notice").addEventListener("click", () => {
   const notice = document.getElementById("w-notice");
   notice.style.display = "none";
 });
+
+// белое меню
+
+document.querySelector(".w-sign-up-box").addEventListener("click", () => {
+  window.location.href = "w-sign-up.html";
+});
+
+document.querySelector(".w-poster-box").addEventListener("click", () => {
+  window.location.href = "poster.html";
+});
+
+document.querySelector(".w-place-box").addEventListener("click", () => {
+  window.location.href = "place.html";
+});
+
+document.querySelector(".w-shop-box").addEventListener("click", () => {
+  window.location.href = "shop.html";
+});

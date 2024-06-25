@@ -269,3 +269,9 @@
   width: 2vw;
   height: 2vw;
 }
+
+.b-generator-box,
+.b-process-box,
+.b-sign-up-box {
+  cursor: pointer;
+}

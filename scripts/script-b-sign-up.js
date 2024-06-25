@@ -94,3 +94,17 @@ document.getElementById("b-close-notice").addEventListener("click", () => {
   const notice = document.getElementById("b-notice");
   notice.style.display = "none";
 });
+
+// синее меню
+
+document.querySelector(".b-generator-box").addEventListener("click", () => {
+  window.location.href = "generator.html";
+});
+
+document.querySelector(".b-process-box").addEventListener("click", () => {
+  window.location.href = "process.html";
+});
+
+document.querySelector(".b-sign-up-box").addEventListener("click", () => {
+  window.location.href = "b-sign-up.html";
+});

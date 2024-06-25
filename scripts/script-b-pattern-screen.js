@@ -29,3 +29,17 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "index.html";
   });
 });
+
+// синее меню
+
+document.querySelector(".b-generator-box").addEventListener("click", () => {
+  window.location.href = "generator.html";
+});
+
+document.querySelector(".b-process-box").addEventListener("click", () => {
+  window.location.href = "process.html";
+});
+
+document.querySelector(".b-sign-up-box").addEventListener("click", () => {
+  window.location.href = "b-sign-up.html";
+});

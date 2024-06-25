@@ -49,6 +49,13 @@
 .w-menu-text:hover::after {
   width: 100%;
 }
+.w-contact-text:hover::after {
+  width: 100%;
+}
+.w-about-us-text:hover::after {
+  width: 100%;
+}
+
 .w-contact-text {
   position: relative;
   cursor: pointer;
@@ -273,4 +280,12 @@
 .w-second-star {
   top: -31px;
   z-index: 10;
+}
+
+.w-sign-up-box,
+.w-poster-box,
+.w-place-box,
+.w-text-menu,
+.w-shop-box {
+  cursor: pointer;
 }
