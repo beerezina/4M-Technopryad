@@ -269,3 +269,8 @@
   width: 2vw;
   height: 2vw;
 }
+.w-first-star,
+.w-second-star {
+  top: -31px;
+  z-index: 10;
+}

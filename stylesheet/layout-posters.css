@@ -1,0 +1,57 @@
+#poster-content-box {
+  display: flex;
+  background-image: url(../images/two-posters1.png);
+  background-size: cover;
+  justify-content: space-around;
+}
+
+.poster-first-series,
+.poster-second-series {
+  height: 100%;
+  width: 43%;
+  opacity: 0%;
+  font-family: "Cute Font";
+  color: white;
+  font-size: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s ease;
+}
+
+@keyframes op2 {
+  0% {
+    filter: blur(23px) opacity(0);
+    -webkit-filter: blur(23px) opacity(0);
+  }
+  100% {
+    filter: blur(0px) opacity(1);
+    -webkit-blur: (0px) opacity(1);
+  }
+}
+
+.poster-first-series:hover {
+  opacity: 100%;
+  background-color: hsla(256, 100%, 50%, 0.8);
+  animation: 0.5s ease-in-out 0s 1 alternate op2;
+}
+.poster-second-series:hover {
+  opacity: 100%;
+  background-color: hsla(256, 100%, 50%, 0.8);
+  animation: 0.5s ease-in-out 0s 1 alternate op2;
+}
+
+@keyframes lightss {
+  0% {
+    opacity: 0%;
+    transition: width 0.3s ease;
+  }
+  50% {
+    opacity: 100%;
+    transition: width 0.3s ease;
+  }
+  100% {
+    opacity: 0%;
+    transition: width 0.3s ease;
+  }
+}
