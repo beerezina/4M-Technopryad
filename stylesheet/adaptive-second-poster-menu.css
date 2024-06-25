@@ -1,0 +1,113 @@
+/* планшет */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .fp-slider-container {
+    height: 133vw;
+  }
+  .fp-button {
+    height: 133vw;
+    width: 11vw;
+  }
+  .fp-slider-item {
+    min-width: 100vw;
+    height: 133vw;
+  }
+  .fp-slider-item img {
+    width: 78.139vw;
+    height: 109.889vw;
+  }
+  .fp-close-button {
+    top: 2vw;
+    right: 2vw;
+    width: 7vw;
+    height: 7vw;
+  }
+  .fp-close-button > a > img {
+    width: 4vw;
+    height: 5vw;
+  }
+}
+/* мобилка */
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+  .fp-slider-item img {
+    width: 100.139vw;
+    height: 140.889vw;
+  }
+  .fp-slider-container {
+    position: relative;
+    width: 100vw;
+    height: 216.111vw;
+  }
+  .fp-slider {
+    height: 216.111vw;
+  }
+  .fp-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 216.111vw;
+  }
+  .fp-close-button {
+    top: 4.694vw;
+    right: 4.694vw;
+    width: 9.778vw;
+    height: 9.778vw;
+  }
+  .fp-close-button a {
+    width: 5vw;
+    height: 5vw;
+  }
+  .fp-button {
+    width: 100vw;
+    height: 19%;
+  }
+  .next-line {
+    width: 11vw;
+    transform: rotate(90deg);
+  }
+  .fp-right-button {
+    top: 92.1%;
+    border: 2px white solid;
+    border-right: 0px;
+    border-left: 0px;
+    box-sizing: border-box;
+  }
+  .fp-left-button {
+    top: 8%;
+    border: 2px white solid;
+    border-right: 0px;
+    border-left: 0px;
+    box-sizing: border-box;
+  }
+  #next-line-marg {
+    margin-bottom: -9vw;
+  }
+  .fp-close-button > a > img {
+    width: 6vw;
+    height: 6vw;
+  }
+  .fp-slider-item {
+    margin-top: 72.8vw;
+  }
+}
+/* 2к экран */
+@media only screen and (min-width: 1920px) and (max-width: 9999px) {
+  .fp-slider-container {
+    height: 52.111vw;
+  }
+  .fp-slider {
+    height: 52.111vw;
+  }
+  .fp-slider-item img {
+    width: 33.139vw;
+    height: 46.889vw;
+  }
+  .fp-button {
+    width: 15.472vw;
+  }
+  .fp-close-button a {
+    height: 4.2vw;
+  }
+  .fp-slider-item {
+    min-width: 100vw;
+    height: 51vw;
+  }
+}

@@ -22,7 +22,7 @@ body {
 
 .icon span {
   font-size: 20px;
-  color: blue;
+  color: #4200ff;
 }
 
 .products {
@@ -80,7 +80,7 @@ span > svg {
   color: #eb8ef3;
 }
 #cart-icon {
-  border: solid 2px blue;
+  border: solid 2px #4200ff;
 }
 .fl-col-1,
 .fl-col-2,
@@ -90,7 +90,7 @@ span > svg {
 }
 
 .header-shop-text {
-  color: blue;
+  color: #4200ff;
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   font-size: 4vw;
 }
@@ -101,7 +101,7 @@ span > svg {
 .name {
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   padding: 1vw;
-  color: blue;
+  color: #4200ff;
 }
 
 .wishlist-button,
@@ -114,15 +114,15 @@ span > svg {
   color: #eb8ef3;
 }
 .cart-button {
-  border: 2px solid blue;
-  color: blue;
+  border: 2px solid #4200ff;
+  color: #4200ff;
 }
 #wishlist-icon.flash {
   background-color: #eb8ef3;
 }
 
 #cart-icon.flash {
-  background-color: blue;
+  background-color: #4200ff;
 }
 
 .wishlist-button,
@@ -140,13 +140,13 @@ span > svg {
   color: white; /* для изменения цвета текста */
 }
 #cart-icon.flash {
-  background-color: blue;
+  background-color: #4200ff;
   color: white; /* для изменения цвета текста */
 }
 
 .cart-button:hover,
 .cart-button.active {
-  background-color: blue;
+  background-color: #4200ff;
   color: white;
 }
 

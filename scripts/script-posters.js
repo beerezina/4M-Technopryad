@@ -41,3 +41,15 @@ document.addEventListener("DOMContentLoaded", function () {
     console.warn("Элемент с классом .poster-second-series не найден.");
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var posterElement = document.querySelector(".poster-first-series");
+
+  if (posterElement) {
+    posterElement.addEventListener("click", function () {
+      window.location.href = "second-poster-menu.html";
+    });
+  } else {
+    console.warn("Элемент с классом .poster-second-series не найден.");
+  }
+});

@@ -298,11 +298,11 @@
   color: #eb8ef3;
 }
 .w-invalid {
-  color: blue;
+  color: #4200ff;
 }
 #w-close-notice {
   background: white;
-  border: 2px blue solid;
+  border: 2px #4200ff solid;
   font-weight: bold;
   cursor: pointer;
   width: 3.89vw;
@@ -313,15 +313,15 @@
 .w-sign-up-header {
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   font-size: 4vw;
-  color: blue;
+  color: #4200ff;
 }
 .w-container > label {
-  color: blue;
+  color: #4200ff;
 }
 #w-notice-text {
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   font-size: 3vw;
-  color: blue;
+  color: #4200ff;
 }
 .w-sign-up-header-box {
   display: flex;
@@ -342,7 +342,7 @@
   margin-right: 1.04vw;
   background-color: white;
   margin-right: 1.88vw;
-  border: blue 2px solid;
+  border: #4200ff 2px solid;
 }
 #w-submit-button {
   background-color: #eb8ef3;
@@ -379,7 +379,7 @@ label {
 #w-email-input {
   height: 3.82vw;
   width: 38.47vw;
-  border: 2px blue solid;
+  border: 2px #4200ff solid;
   border-radius: 4px;
   font-family: "Bank Gothic(RUS BY LYAJKA)";
   font-size: 1.6vw;
@@ -390,7 +390,7 @@ label {
 #w-time-input {
   height: 3.82vw;
   width: 9.72vw;
-  border: 2px blue solid;
+  border: 2px #4200ff solid;
   border-radius: 4px;
   display: flex;
   font-family: "Bank Gothic(RUS BY LYAJKA)";

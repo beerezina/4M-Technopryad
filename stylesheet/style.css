@@ -10,6 +10,8 @@
 @import url(layout-process.css);
 @import url(layout-posters.css);
 @import url(layout-first-poster-menu.css);
+@import url(layout-second-poster-menu.css);
+@import url(layout-place.css);
 @import url(animation.css);
 @import url(adaptive-main-screen.css);
 @import url(adaptive-w-pattern-screen.css);
@@ -21,3 +23,5 @@
 @import url(adaptive-process.css);
 @import url(adaptive-posters.css);
 @import url(adaptive-first-poster-menu.css);
+@import url(adaptive-second-poster-menu.css);
+@import url(adaptive-place.css);

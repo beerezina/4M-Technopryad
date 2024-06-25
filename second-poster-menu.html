@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="fp-menu-screen-html" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Слайдер плакатов</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+  </head>
+  <body class="fp-menu-screen">
+    <section class="no-scroll-please">
+      <div class="fp-slider-container">
+        <div class="wdt">
+          <div class="fp-close-button">
+            <a href="poster.html"
+              ><img class="krest" src="./images/krest.svg" alt=""
+            /></a>
+          </div>
+
+          <button class="fp-button fp-left-button" onclick="prevSlide()">
+            <img
+              class="next-line"
+              id="next-line-marg"
+              src="./images/before-line.svg"
+              alt=""
+            />
+          </button>
+
+          <div class="fp-slider" id="fp-slider">
+            <div class="fp-slider-item">
+              <img src="./images/poster-2-1.png" alt="Плакат 1" />
+            </div>
+
+            <div class="fp-slider-item">
+              <img src="./images/poster-2-2.png" alt="Плакат 2" />
+            </div>
+
+            <div class="fp-slider-item">
+              <img src="./images/poster-2-3.png" alt="Плакат 3" />
+            </div>
+
+            <div class="fp-slider-item">
+              <img src="./images/poster-2-4.png" alt="Плакат 4" />
+            </div>
+
+            <div class="fp-slider-item">
+              <img src="./images/poster-2-5.png" alt="Плакат 5" />
+            </div>
+          </div>
+
+          <button class="fp-button fp-right-button" onclick="nextSlide()">
+            <img class="next-line" src="./images/next-line.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="./scripts/script-first-poster-menu.js"></script>
+  </body>
+</html>
