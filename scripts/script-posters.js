@@ -71,3 +71,30 @@ document.querySelector(".w-place-box").addEventListener("click", () => {
 document.querySelector(".w-shop-box").addEventListener("click", () => {
   window.location.href = "shop.html";
 });
+
+// Найти элемент с классом .w-about-us-text
+const waboutUsText = document.querySelector(".w-about-us-text");
+waboutUsText.addEventListener("click", function () {
+  // Открыть указанную ссылку в новом окне
+  window.open("https://portfolio.hse.ru/project/217510#", "_blank");
+});
+
+const baboutUsText = document.querySelector(".b-about-us-text");
+baboutUsText.addEventListener("click", function () {
+  window.open("https://portfolio.hse.ru/project/217510#", "_blank");
+});
+
+const bbContactText = document.querySelector(".b-contact-text");
+bbContactText.addEventListener("click", function () {
+  window.open(
+    "https://deziiign.com/designer/eb26f621c3294af3a262f3714c3dcfd5",
+    "_blank"
+  );
+});
+const wwContactText = document.querySelector(".w-contact-text");
+wwContactText.addEventListener("click", function () {
+  window.open(
+    "https://deziiign.com/designer/eb26f621c3294af3a262f3714c3dcfd5",
+    "_blank"
+  );
+});

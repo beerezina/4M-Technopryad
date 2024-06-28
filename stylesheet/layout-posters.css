@@ -55,3 +55,8 @@
     transition: width 0.3s ease;
   }
 }
+
+.poster-first-series,
+.poster-second-series {
+  cursor: pointer;
+}
